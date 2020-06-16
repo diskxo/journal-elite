@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="tbl" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tbl">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Lunedì" type="xs:string" minOccurs="0" />
+                <xs:element name="Martedì" type="xs:string" minOccurs="0" />
+                <xs:element name="Mercoledì" type="xs:string" minOccurs="0" />
+                <xs:element name="Giovedì" type="xs:string" minOccurs="0" />
+                <xs:element name="Venerdì" type="xs:string" minOccurs="0" />
+                <xs:element name="Sabato" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tbl>
+    <Lunedì>Grafica</Lunedì>
+    <Martedì>Inglese</Martedì>
+    <Mercoledì>informatica</Mercoledì>
+    <Giovedì>Italiano</Giovedì>
+    <Venerdì>Scienze</Venerdì>
+    <Sabato>Inglese</Sabato>
+  </tbl>
+  <tbl>
+    <Lunedì>Grafica</Lunedì>
+    <Martedì>Storia</Martedì>
+    <Mercoledì>informatica</Mercoledì>
+    <Giovedì>Italiano</Giovedì>
+    <Venerdì>Chimica</Venerdì>
+    <Sabato>Inglese</Sabato>
+  </tbl>
+  <tbl>
+    <Lunedì>Diritto</Lunedì>
+    <Martedì>Fisica</Martedì>
+    <Mercoledì>Matematica</Mercoledì>
+    <Giovedì>Diritto</Giovedì>
+    <Venerdì>Storia</Venerdì>
+    <Sabato>Italiano</Sabato>
+  </tbl>
+  <tbl>
+    <Lunedì>Chimica</Lunedì>
+    <Martedì>Scienze</Martedì>
+    <Mercoledì>Grafica</Mercoledì>
+    <Giovedì>Fisica</Giovedì>
+    <Venerdì>Matematica</Venerdì>
+    <Sabato>Informatica</Sabato>
+  </tbl>
+  <tbl>
+    <Lunedì>Fisica</Lunedì>
+    <Martedì>Chimica</Martedì>
+    <Mercoledì>Religione</Mercoledì>
+    <Giovedì>Matematica</Giovedì>
+    <Venerdì>Motoria</Venerdì>
+  </tbl>
+  <tbl>
+    <Lunedì>Italiano</Lunedì>
+    <Venerdì>Motoria</Venerdì>
+  </tbl>
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+  <tbl />
+</NewDataSet>

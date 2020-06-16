@@ -1,0 +1,219 @@
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Journal Elite.exe.config
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Journal Elite.exe
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Journal Elite.pdb
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csprojAssemblyReference.cache
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Properties.Resources.resources
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csproj.GenerateResource.cache
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csproj.CoreCompileInputs.cache
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.exe
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.pdb
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Home.resources
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormAgenda.resources
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormCalendario.resources
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormOrario.resources
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormProfilo.resources
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormValutazioni.resources
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Auth.dll
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Core.dll
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.dll
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.pdb
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.xml
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Auth.xml
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Core.pdb
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Core.xml
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csproj.CopyComplete
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Classroom.v1.dll
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Classroom.v1.pdb
+C:\Users\nicol\Google Drive\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Classroom.v1.xml
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csprojAssemblyReference.cache
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormAgenda.resources
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormCalendario.resources
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormOrario.resources
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormProfilo.resources
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Forms.FormValutazioni.resources
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Home.resources
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.Properties.Resources.resources
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csproj.GenerateResource.cache
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csproj.CoreCompileInputs.cache
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.exe
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Journal Elite.exe.config
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Journal Elite.exe
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Journal Elite.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Auth.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Classroom.v1.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Core.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.PlatformServices.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Newtonsoft.Json.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Auth.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Auth.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Classroom.v1.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Classroom.v1.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Core.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Google.Apis.Core.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Newtonsoft.Json.xml
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csproj.CopyComplete
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal_Elite.AddEvent.resources
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.WinForms.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.Wpf.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.WinForms.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.WinForms.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.Wpf.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\LiveCharts.Wpf.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Buffers.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Memory.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Numerics.Vectors.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Text.Encodings.Web.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Text.Json.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.ValueTuple.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Buffers.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Memory.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Numerics.Vectors.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Text.Encodings.Web.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Text.Json.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\System.ValueTuple.xml
+C:\diskxo_\Visual Studio\Journal Elite\obj\Debug\Journal Elite.csproj.ResolveComReference.cache
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\ExcelDataReader.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\ExcelDataReader.pdb
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\ExcelDataReader.xml
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Bunifu.Licensing.dll
+C:\diskxo_\Visual Studio\Journal Elite\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Journal Elite.exe.config
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Journal Elite.exe
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Journal Elite.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\ExcelDataReader.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Auth.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Classroom.v1.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Core.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.PlatformServices.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.WinForms.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.Wpf.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Newtonsoft.Json.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Buffers.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Memory.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Numerics.Vectors.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Text.Encodings.Web.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Text.Json.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.ValueTuple.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Bunifu.Licensing.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\ExcelDataReader.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\ExcelDataReader.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Auth.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Auth.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Classroom.v1.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Classroom.v1.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Core.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Google.Apis.Core.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.WinForms.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.WinForms.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.Wpf.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\LiveCharts.Wpf.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\Newtonsoft.Json.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Buffers.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Memory.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Numerics.Vectors.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Text.Encodings.Web.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Text.Json.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\System.ValueTuple.xml
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal Elite.csprojAssemblyReference.cache
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal Elite.csproj.ResolveComReference.cache
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.Forms.FormAgenda.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.Forms.FormCalendario.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.Forms.FormOrario.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.Forms.FormProfilo.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.Forms.FormValutazioni.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.Home.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.Properties.Resources.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal Elite.csproj.GenerateResource.cache
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal Elite.csproj.CoreCompileInputs.cache
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal Elite.csproj.CopyComplete
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal Elite.exe
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal Elite.pdb
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\EO.WebBrowser.WinForm.DLL
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\EO.WebBrowser.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\EO.Base.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\EO.WebEngine.dll
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\EO.WebBrowser.WinForm.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\EO.WebBrowser.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\EO.Base.xml
+C:\diskxo_\Visual Studio\journalelite\bin\Debug\EO.WebEngine.xml
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.AggiungiEvento.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.Forms.ModificaEvento.resources
+C:\diskxo_\Visual Studio\journalelite\obj\Debug\Journal_Elite.AddSubjectForm.resources
