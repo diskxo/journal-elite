@@ -26,7 +26,7 @@ namespace Journal_Elite.Forms
 
     private void FormOrario_Load(object sender, EventArgs e)
     {
-      dt.ReadXml(@"C:/diskxo_/Visual Studio/journalelite/Orario.xml");
+      dt.ReadXml(@"Orario.xml");
       bunifuCustomDataGrid1.DataSource = dt;
 
 
@@ -36,7 +36,7 @@ namespace Journal_Elite.Forms
 
     private void timer1_Tick(object sender, EventArgs e)
     {
-      dt.WriteXml(@"C:/diskxo_/Visual Studio/journalelite/Orario.xml", XmlWriteMode.WriteSchema);
+      dt.WriteXml(@"Orario.xml", XmlWriteMode.WriteSchema);
 
     }
 
