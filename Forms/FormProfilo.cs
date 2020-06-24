@@ -51,25 +51,27 @@ namespace Journal_Elite.Forms
 
     private void ChangePropic_Click(object sender, EventArgs e)
     {
-      //Upload a ProPic
-      OpenFileDialog open = new OpenFileDialog();
-      open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp;)|*.jpg; *.jpeg; *.gif; *.bmp";
-      if (open.ShowDialog() == DialogResult.OK)
-      {
-        ProPic.Image = new Bitmap(open.FileName);
-        File.Copy(ProPic.Text, Path.Combine("C:/Journal Elite/ProfilePic/", Path.GetFileName("propic")), true);
-
-
-        MessageBox.Show("Immagine profilo aggiornata con successo!");
-      }
-
-      this.ProPic.MaximumSize = new System.Drawing.Size(149, 127);
+      
     }
 
     private void ProPic_Click(object sender, EventArgs e)
     {
-      this.ProPic.MaximumSize = new System.Drawing.Size(149, 127);
-      ProPic.SizeMode = PictureBoxSizeMode.StretchImage;
+            //Upload a ProPic
+            OpenFileDialog open = new OpenFileDialog();
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp;)|*.jpg; *.jpeg; *.gif; *.bmp";
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                ProPic.Image = new Bitmap(open.FileName);
+                File.Copy(ProPic.Text, Path.Combine("C:/Journal Elite/ProfilePic/", Path.GetFileName("propic")), true);
+
+
+                MessageBox.Show("Immagine profilo aggiornata con successo!");
+            }
+
+
+
+      this.ProPic.MaximumSize = new System.Drawing.Size(128, 128);
+      
 
       //Save ProPic
 
