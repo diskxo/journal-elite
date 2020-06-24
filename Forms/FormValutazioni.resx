@@ -640,16 +640,16 @@
   </data>
   <data name="AddVote.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAIUAAACFAeLs/8EAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAABrElEQVRIS72WS07DQAyGcwgWPFq1ExBXgCOAgJ4DKByGRyYKYsGadYGblMcBgGUzkxbRh8LvZILa
-        xGkngLD0SenY/p3OOE6cebbuDerC1ydCqgfh6UchoygB165U90Lq9sb5oGbC7a3mD9aQHIARiBcwAbfi
-        8qNh0ucb7raFBDUlYIsSnjowMrwh6BTQHXECNkxoS43crDVkfxcB41zCT8ANqpaRTc3s+cJt2b5J4Xw5
-        wkbQXzHytDXRNRNU4D38jF8B52MIEvGkFS23ZjgcJnA+hhHtTHawXECBigVi19PHjnlg2IA8VQtg6zv0
-        D16KDp7qBfQTFdC5xaRT6EAzwUW8IXaL7y5NBQrtSQUoiRPjoM4qKRBSgefcYimZIOcrofsvh9wuOniq
-        FmhKfejQPMcPm7FctUD6oJFhAl4xAQXo4G1HhSu1n4iT1S/6q1i0GnYl3ZKn1/SiZSOfGhZ24PiTce36
-        at/Izlr6/v3lCwdNY+R4o+oICqeSbOm5MtwzMvNtM1BL+HI4Q5JNd1FMMPOCsTVqM9fXR01P3UGkC2hu
-        EbiOOuT7bkXWHOcLljgdL2L6qjgAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        hQAAAIUB4uz/wQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGsSURBVEhLvZZL
+        TsNADIZzCBY8WrUTEFeAI4CAngMoHIZHJgpiwZp1gZuUxwGAZTOTFtGHwu9kgtrEaSeAsPRJ6dj+nc44
+        Tpx5tu4N6sLXJ0KqB+HpRyGjKAHXrlT3Qur2xvmgZsLtreYP1pAcgBGIFzABt+Lyo2HS5xvutoUENSVg
+        ixKeOjAyvCHoFNAdcQI2TGhLjdysNWR/FwHjXMJPwA2qlpFNzez5wm3ZvknhfDnCRtBfMfK0NdE1E1Tg
+        PfyMXwHnYwgS8aQVLbdmOBwmcD6GEe1MdrBcQIGKBWLX08eOeWDYgDxVC2DrO/QPXooOnuoF9BMV0LnF
+        pFPoQDPBRbwhdovvLk0FCu1JBSiJE+OgziopEFKB59xiKZkg5yuh+y+H3C46eKoWaEp96NA8xw+bsVy1
+        QPqgkWECXjEBBejgbUeFK7WfiJPVL/qrWLQadiXdkqfX9KJlI58aFnbg+JNx7fpq38jOWvr+/eULB01j
+        5Hij6ggKp5Js6bky3DMy820zUEv4cjhDkk13UUww84KxNWoz19dHTU/dQaQLaG4RuI465PtuRdYc5wuW
+        OB0vYvqqOAAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

@@ -319,6 +319,7 @@
             this.label1.TabIndex = 16;
             this.label1.Text = "Subject1";
             this.label1.Visible = false;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -451,6 +452,7 @@
             this.txtName.Size = new System.Drawing.Size(221, 25);
             this.txtName.TabIndex = 27;
             this.txtName.Visible = false;
+            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
             // 
             // AddVote
             // 

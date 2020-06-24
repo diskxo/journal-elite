@@ -12,8 +12,36 @@ namespace Journal_Elite.Forms
 {
     public partial class FormValutazioni : Form
     {
-        System.Data.DataTable dt = new System.Data.DataTable();
-        DataTable table = new DataTable("tbl");
+        System.Data.DataTable subject1 = new System.Data.DataTable("subject1");
+        DataTable table1 = new DataTable("subject1");
+
+        System.Data.DataTable subject2 = new System.Data.DataTable("subject2");
+        DataTable table2 = new DataTable("subject2");
+
+        System.Data.DataTable subject3 = new System.Data.DataTable("subject3");
+        DataTable table3 = new DataTable("subject3");
+
+        System.Data.DataTable subject4 = new System.Data.DataTable("subject4");
+        DataTable table4 = new DataTable("subject4");
+
+        System.Data.DataTable subject5 = new System.Data.DataTable("subject5");
+        DataTable table5 = new DataTable("subject5");
+
+        System.Data.DataTable subject6 = new System.Data.DataTable("subject6");
+        DataTable table6 = new DataTable("subject6");
+
+        System.Data.DataTable subject7 = new System.Data.DataTable("subject7");
+        DataTable table7 = new DataTable("subject7");
+
+        System.Data.DataTable subject8 = new System.Data.DataTable("subject8");
+        DataTable table8 = new DataTable("subject8");
+
+        System.Data.DataTable subject9 = new System.Data.DataTable("subject9");
+        DataTable table9 = new DataTable("subject9");
+
+        System.Data.DataTable subject10 = new System.Data.DataTable("subject10");
+        DataTable table10 = new DataTable("subject10");
+
         public FormValutazioni()
         {
             InitializeComponent();
@@ -39,6 +67,7 @@ namespace Journal_Elite.Forms
 
         private void SaveSubject_Click(object sender, EventArgs e)
         {
+            
 
             if (label1.Visible == false)
             {
@@ -102,6 +131,57 @@ namespace Journal_Elite.Forms
                 button9.Visible = true;
             }
 
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+            if (label1.Visible == false)
+            {
+                subject1.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label2.Visible == false)
+            {
+                subject2.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label3.Visible == false)
+            {
+                subject3.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label4.Visible == false)
+            {
+                subject4.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label5.Visible == false)
+            {
+                subject5.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label6.Visible == false)
+            {
+                subject6.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label7.Visible == false)
+            {
+                subject7.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label8.Visible == false)
+            {
+                subject8.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label9.Visible == false)
+            {
+                subject9.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            else if (label10.Visible == false)
+            {
+                subject10.WriteXml(@"subjects.xml", XmlWriteMode.WriteSchema);
+            }
+            
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            subject1.ReadXml(@"subjects.xml");
+            label1.Text = subject1.TableName;
         }
     }
     
