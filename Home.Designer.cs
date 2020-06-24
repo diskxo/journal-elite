@@ -277,9 +277,9 @@
             this.lblTitle.ForeColor = System.Drawing.Color.White;
             this.lblTitle.Location = new System.Drawing.Point(420, 15);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(167, 28);
+            this.lblTitle.Size = new System.Drawing.Size(137, 28);
             this.lblTitle.TabIndex = 0;
-            this.lblTitle.Text = "PANORAMICA";
+            this.lblTitle.Text = "Panoramica";
             this.lblTitle.Click += new System.EventHandler(this.label1_Click);
             this.lblTitle.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lblTitle_MouseDown);
             // 
