@@ -129,7 +129,7 @@
             this.ClientSize = new System.Drawing.Size(893, 564);
             this.Controls.Add(this.bunifuCustomDataGrid1);
             this.Name = "FormOrario";
-            this.Text = "FormOrario";
+            this.Text = "Orario";
             this.Load += new System.EventHandler(this.FormOrario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.orarioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.orario)).EndInit();
