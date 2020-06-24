@@ -299,7 +299,6 @@ C:\diskxo_\Visual Studio\journal-elite\bin\Debug\EO.Base.xml
 C:\diskxo_\Visual Studio\journal-elite\bin\Debug\EO.WebEngine.xml
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.csprojAssemblyReference.cache
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.ResolveComReference.cache
-C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.AddSubjectForm.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.AggiungiEvento.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.ModificaEvento.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormAgenda.resources
