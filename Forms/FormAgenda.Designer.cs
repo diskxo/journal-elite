@@ -110,7 +110,7 @@
             this.Controls.Add(this.ClassroomEvents);
             this.Controls.Add(this.label1);
             this.Name = "FormAgenda";
-            this.Text = "COMPITI";
+            this.Text = "Agenda";
             this.Load += new System.EventHandler(this.FormAgenda_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
