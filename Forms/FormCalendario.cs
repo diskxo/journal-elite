@@ -47,8 +47,10 @@ namespace Journal_Elite.Forms
             
             
         }
+
         private void FormCalendario_Load(object sender, EventArgs e)
         {
+
             lblDate.Text = DateTime.Now.ToString("dd MMMM yyyy");
             lblDay.Text = DateTime.Now.ToString("dddd");
             lblTime.Text = DateTime.Now.ToString("hh:mm:ss tt");

@@ -15,7 +15,6 @@ namespace Journal_Elite.Forms
   public partial class FormProfilo : Form
   {
 
-    public System.Windows.Forms.FormBorderStyle FormBorderStyle { get; set; }
     public FormProfilo()
     {
       InitializeComponent();
@@ -43,11 +42,7 @@ namespace Journal_Elite.Forms
       LoadTheme();
     }
 
-    private void Button1_Click(object sender, EventArgs e)
-    {
 
-
-    }
 
     private void ChangePropic_Click(object sender, EventArgs e)
     {
@@ -78,5 +73,14 @@ namespace Journal_Elite.Forms
 
     }
 
-  }
+        private void creadits_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(
+                "Creato da diskxo_" + "\n" + " Aprire il sito web?", "Creaditi", MessageBoxButtons.YesNo , MessageBoxIcon.Asterisk
+            ) == DialogResult.Yes)
+            {
+                System.Diagnostics.Process.Start("http://www.phoenixpixel.it");
+            }
+        }
+    }
 }

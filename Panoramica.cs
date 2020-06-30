@@ -23,7 +23,7 @@ using Form = System.Windows.Forms.Form;
 
 namespace Journal_Elite
 {
-    public partial class Home : Form
+    public partial class Panoramica : Form
     {
 
         //Classi  Google Classroom
@@ -43,7 +43,7 @@ namespace Journal_Elite
      
         public int myVar { get; private set; }
         
-        public Home()
+        public Panoramica()
         {
             InitializeComponent();
             random = new Random();
@@ -410,6 +410,11 @@ namespace Journal_Elite
         }
 
         private void lblGoogleCalendarTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelTitleBar_Paint(object sender, PaintEventArgs e)
         {
 
         }

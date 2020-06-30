@@ -306,10 +306,10 @@ C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormCalenda
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormOrario.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormProfilo.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormValutazioni.resources
-C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Home.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Properties.Resources.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.GenerateResource.cache
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.CoreCompileInputs.cache
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.CopyComplete
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.exe
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.pdb
+C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Panoramica.resources

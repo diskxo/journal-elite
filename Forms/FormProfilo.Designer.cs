@@ -30,29 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormProfilo));
-            this.btnWindowSize = new System.Windows.Forms.Button();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.ProPic = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.creadits = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ProPic)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnWindowSize
-            // 
-            this.btnWindowSize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnWindowSize.FlatAppearance.BorderSize = 0;
-            this.btnWindowSize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWindowSize.ForeColor = System.Drawing.Color.White;
-            this.btnWindowSize.Image = ((System.Drawing.Image)(resources.GetObject("btnWindowSize.Image")));
-            this.btnWindowSize.Location = new System.Drawing.Point(12, 426);
-            this.btnWindowSize.Name = "btnWindowSize";
-            this.btnWindowSize.Size = new System.Drawing.Size(36, 37);
-            this.btnWindowSize.TabIndex = 1;
-            this.btnWindowSize.UseVisualStyleBackColor = true;
-            this.btnWindowSize.Click += new System.EventHandler(this.Button1_Click);
             // 
             // imageList1
             // 
@@ -124,18 +110,30 @@
             this.textBox2.Text = "$(\"#all_of_me\").ready(function () { });";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // creadits
+            // 
+            this.creadits.FlatAppearance.BorderSize = 0;
+            this.creadits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.creadits.Location = new System.Drawing.Point(702, 439);
+            this.creadits.Name = "creadits";
+            this.creadits.Size = new System.Drawing.Size(37, 24);
+            this.creadits.TabIndex = 11;
+            this.creadits.Text = "i";
+            this.creadits.UseVisualStyleBackColor = true;
+            this.creadits.Click += new System.EventHandler(this.creadits_Click);
+            // 
             // FormProfilo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(751, 475);
+            this.Controls.Add(this.creadits);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ProPic);
-            this.Controls.Add(this.btnWindowSize);
             this.Name = "FormProfilo";
             this.Text = "Profilo";
             this.Load += new System.EventHandler(this.FormProfilo_Load);
@@ -146,12 +144,12 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnWindowSize;
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.PictureBox ProPic;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button creadits;
     }
 }
