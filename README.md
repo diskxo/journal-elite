@@ -12,8 +12,7 @@ UTILIZZO<br>
 Journal Elite è diviso in 6 categorie:
 
 - Home = Riepilogo generale di eventi, corsi e compiti in scadenza
-- Agenda = Compiti in scadenza su Google Classroom
-- Eventi = Eventi e impegni in scadenza su Google Calendar
+- Agenda = Compiti in scadenza su Google Classroom, Calendario eventi (Google Calendar)
 - Orario = Orario di scuola dove è possibile consultare le materie ora per ora
 - Valutazioni = Form che effettua la media dei voti di ogni materia che l'utente inserisce
 - Profilo/Opzioni = In questa sezione è possibile settare delle preferenze riguardanti il funzionamento del programma
