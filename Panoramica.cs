@@ -224,48 +224,44 @@ namespace Journal_Elite
         
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            lblDate.Text = DateTime.Now.ToString("dd MMMM yyyy");
+            lblDay.Text = DateTime.Now.ToString("dddd");
+            lblTime.Text = DateTime.Now.ToString("hh:mm" + ", ");
+            lblTime.Visible = false;
+            lblDay.Visible = false;
+            lblDate.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            panelLogo.BackColor = Color.FromArgb(0, 81, 0);
-            panelTitleBar.BackColor = Color.FromArgb(0, 108, 0);
-            panelMenu.BackColor = Color.FromArgb(0, 108, 0);
-            btnCalendario.BackColor = Color.FromArgb(0, 108, 0);
-            btnAgenda.BackColor = Color.FromArgb(0, 108, 0);
-            btnOrario.BackColor = Color.FromArgb(0, 108, 0);
-            btnProfilo.BackColor = Color.FromArgb(0, 108, 0);
-            btnValutazioni.BackColor = Color.FromArgb(0, 108, 0);
-
+            panelLogo.BackColor = Color.FromArgb(23, 123, 53);
+            panelTitleBar.BackColor = Color.FromArgb(19, 100, 44);
+            panelMenu.BackColor = Color.FromArgb(19, 100, 44); 
+            btnAgenda.BackColor = Color.FromArgb(19, 100, 44);
+            btnOrario.BackColor = Color.FromArgb(19, 100, 44);
+            btnProfilo.BackColor = Color.FromArgb(19, 100, 44);
+            btnValutazioni.BackColor = Color.FromArgb(19, 100, 44);
             OpenChildForm(new Forms.FormOrario(), sender);
+            lblTime.Visible = false;
+            lblDay.Visible = false;
+            lblDate.Visible = false;
         }
 
-        private void btnCalendario_Click(object sender, EventArgs e)
-        {
-            panelLogo.BackColor = Color.FromArgb(10, 41, 126);
-            panelTitleBar.BackColor = Color.FromArgb(12, 50, 126);
-            panelMenu.BackColor = Color.FromArgb(12, 50, 126);
-            btnCalendario.BackColor = Color.FromArgb(12, 50, 126);
-            btnAgenda.BackColor = Color.FromArgb(12, 50, 126);
-            btnOrario.BackColor = Color.FromArgb(12, 50, 126);
-            btnProfilo.BackColor = Color.FromArgb(12, 50, 126);
-            btnValutazioni.BackColor = Color.FromArgb(12, 50, 126);
-            OpenChildForm(new Forms.FormCalendario(), sender);
-            
-        }
+
 
         private void btnValutazioni_Click(object sender, EventArgs e)
         {
             panelLogo.BackColor = Color.FromArgb(140, 140, 0);
             panelTitleBar.BackColor = Color.FromArgb(168, 168, 0);
             panelMenu.BackColor = Color.FromArgb(168, 168, 0);
-            btnCalendario.BackColor = Color.FromArgb(168, 168, 0);
             btnAgenda.BackColor = Color.FromArgb(168, 168, 0);
             btnOrario.BackColor = Color.FromArgb(168, 168, 0);
             btnProfilo.BackColor = Color.FromArgb(168, 168, 0);
             btnValutazioni.BackColor = Color.FromArgb(168, 168, 0);
             OpenChildForm(new Forms.FormValutazioni(), sender);
+            lblTime.Visible = false;
+            lblDay.Visible = false;
+            lblDate.Visible = false;
         }
 
         private void btnProfilo_Click(object sender, EventArgs e)
@@ -273,28 +269,32 @@ namespace Journal_Elite
             panelLogo.BackColor = Color.DarkCyan;
             panelTitleBar.BackColor = Color.FromArgb(0, 170, 170);
             panelMenu.BackColor = Color.FromArgb(0, 170, 170);
-            btnCalendario.BackColor = Color.FromArgb(0, 170, 170);
             btnAgenda.BackColor = Color.FromArgb(0, 170, 170);
             btnOrario.BackColor = Color.FromArgb(0, 170, 170);
             btnProfilo.BackColor = Color.FromArgb(0, 170, 170);
             btnValutazioni.BackColor = Color.FromArgb(0, 170, 170);
             OpenChildForm(new Forms.FormProfilo(), sender);
+            lblTime.Visible = false;
+            lblDay.Visible = false;
+            lblDate.Visible = false;
         }
         public event EventHandler Click;
         
         private void btnAgenda_Click(object sender, EventArgs e)
         {
-            panelLogo.BackColor = Color.DarkRed;
-            panelTitleBar.BackColor = Color.FromArgb(173, 14, 22);
-            panelMenu.BackColor = Color.FromArgb(173, 14, 22);
-            btnCalendario.BackColor = Color.FromArgb(173, 14, 22);
-            btnAgenda.BackColor = Color.FromArgb(173, 14, 22);
-            btnOrario.BackColor = Color.FromArgb(173, 14, 22);
-            btnProfilo.BackColor = Color.FromArgb(173, 14, 22);
-            btnValutazioni.BackColor = Color.FromArgb(173, 14, 22);
+            panelLogo.BackColor = Color.FromArgb(1, 87, 182);
+            panelTitleBar.BackColor = Color.FromArgb(1, 96, 201);
+            panelMenu.BackColor = Color.FromArgb(1, 96, 201);
+            btnAgenda.BackColor = Color.FromArgb(1, 96, 201);
+            btnOrario.BackColor = Color.FromArgb(1, 96, 201);
+            btnProfilo.BackColor = Color.FromArgb(1, 96, 201);
+            btnValutazioni.BackColor = Color.FromArgb(1, 96, 201);
             
            
             OpenChildForm(new Forms.FormAgenda(), sender);
+            lblTime.Visible = true;
+            lblDay.Visible = true;
+            lblDate.Visible = true;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -418,5 +418,26 @@ namespace Journal_Elite
         {
 
         }
+
+        private void panelDesktopPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblDate_Click(object sender, EventArgs e)
+        {
+            lblDate.Visible = false;
+        }
+
+        private void lblDay_Click(object sender, EventArgs e)
+        {
+            lblDay.Visible = false;
+        }
+
+        private void lblTime_Click(object sender, EventArgs e)
+        {
+            lblTime.Visible = false;
+        }
+
     }
 }

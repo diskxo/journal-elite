@@ -54,7 +54,7 @@ namespace Journal_Elite.Forms
 
         private void AddSubject_Click(object sender, EventArgs e)
         {
-            lblStart.Visible = false;
+            
             lblName.Visible = true;
             txtName.Visible = true;
             SaveSubject.Visible = true;
@@ -72,6 +72,7 @@ namespace Journal_Elite.Forms
 
             if (label1.Visible == false)
             {
+                lblStart.Visible = false;
                 label1.Visible = true;
                 bunifuCircleProgressbar1.Visible = true;
                 AddVote.Visible = true;

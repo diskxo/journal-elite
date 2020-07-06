@@ -33,7 +33,6 @@
             this.panelMenu = new System.Windows.Forms.Panel();
             this.btnProfilo = new System.Windows.Forms.Button();
             this.btnValutazioni = new System.Windows.Forms.Button();
-            this.btnCalendario = new System.Windows.Forms.Button();
             this.btnOrario = new System.Windows.Forms.Button();
             this.btnAgenda = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
@@ -50,6 +49,9 @@
             this.CalendarEvents = new System.Windows.Forms.LinkLabel();
             this.lblGoogleCalendarTitle = new System.Windows.Forms.Label();
             this.GetEvents = new System.Windows.Forms.Timer(this.components);
+            this.lblTime = new System.Windows.Forms.Label();
+            this.lblDay = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -61,7 +63,6 @@
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
             this.panelMenu.Controls.Add(this.btnProfilo);
             this.panelMenu.Controls.Add(this.btnValutazioni);
-            this.panelMenu.Controls.Add(this.btnCalendario);
             this.panelMenu.Controls.Add(this.btnOrario);
             this.panelMenu.Controls.Add(this.btnAgenda);
             this.panelMenu.Controls.Add(this.panelLogo);
@@ -80,7 +81,7 @@
             this.btnProfilo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnProfilo.Image = ((System.Drawing.Image)(resources.GetObject("btnProfilo.Image")));
             this.btnProfilo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnProfilo.Location = new System.Drawing.Point(0, 393);
+            this.btnProfilo.Location = new System.Drawing.Point(0, 309);
             this.btnProfilo.Name = "btnProfilo";
             this.btnProfilo.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnProfilo.Size = new System.Drawing.Size(220, 84);
@@ -100,7 +101,7 @@
             this.btnValutazioni.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnValutazioni.Image = ((System.Drawing.Image)(resources.GetObject("btnValutazioni.Image")));
             this.btnValutazioni.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnValutazioni.Location = new System.Drawing.Point(0, 309);
+            this.btnValutazioni.Location = new System.Drawing.Point(0, 225);
             this.btnValutazioni.Name = "btnValutazioni";
             this.btnValutazioni.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnValutazioni.Size = new System.Drawing.Size(220, 84);
@@ -110,26 +111,6 @@
             this.btnValutazioni.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnValutazioni.UseVisualStyleBackColor = true;
             this.btnValutazioni.Click += new System.EventHandler(this.btnValutazioni_Click);
-            // 
-            // btnCalendario
-            // 
-            this.btnCalendario.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCalendario.FlatAppearance.BorderSize = 0;
-            this.btnCalendario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCalendario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalendario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCalendario.Image = ((System.Drawing.Image)(resources.GetObject("btnCalendario.Image")));
-            this.btnCalendario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCalendario.Location = new System.Drawing.Point(0, 225);
-            this.btnCalendario.Name = "btnCalendario";
-            this.btnCalendario.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnCalendario.Size = new System.Drawing.Size(220, 84);
-            this.btnCalendario.TabIndex = 3;
-            this.btnCalendario.Text = "  Calendario";
-            this.btnCalendario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCalendario.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCalendario.UseVisualStyleBackColor = true;
-            this.btnCalendario.Click += new System.EventHandler(this.btnCalendario_Click);
             // 
             // btnOrario
             // 
@@ -165,7 +146,7 @@
             this.btnAgenda.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnAgenda.Size = new System.Drawing.Size(220, 84);
             this.btnAgenda.TabIndex = 1;
-            this.btnAgenda.Text = "  Compiti";
+            this.btnAgenda.Text = "  Agenda";
             this.btnAgenda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgenda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAgenda.UseVisualStyleBackColor = true;
@@ -211,8 +192,11 @@
             // panelTitleBar
             // 
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panelTitleBar.Controls.Add(this.lblDay);
+            this.panelTitleBar.Controls.Add(this.lblTime);
             this.panelTitleBar.Controls.Add(this.btnMaximize);
             this.panelTitleBar.Controls.Add(this.btnMinimize);
+            this.panelTitleBar.Controls.Add(this.lblDate);
             this.panelTitleBar.Controls.Add(this.btnClose);
             this.panelTitleBar.Controls.Add(this.lblTitle);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
@@ -296,6 +280,7 @@
             this.panelDesktopPanel.Name = "panelDesktopPanel";
             this.panelDesktopPanel.Size = new System.Drawing.Size(969, 603);
             this.panelDesktopPanel.TabIndex = 2;
+            this.panelDesktopPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPanel_Paint);
             // 
             // ClassroomEvents
             // 
@@ -321,9 +306,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(460, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(289, 28);
+            this.label2.Size = new System.Drawing.Size(279, 28);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Corsi di Google Classroom";
+            this.label2.Text = "Corsi (Google Classroom)";
             // 
             // CalendarEvents
             // 
@@ -360,6 +345,45 @@
             this.GetEvents.Interval = 10000;
             this.GetEvents.Tick += new System.EventHandler(this.GetEvents_Tick);
             // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.ForeColor = System.Drawing.Color.White;
+            this.lblTime.Location = new System.Drawing.Point(6, 35);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(38, 19);
+            this.lblTime.TabIndex = 18;
+            this.lblTime.Text = "Time";
+            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
+            // 
+            // lblDay
+            // 
+            this.lblDay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDay.AutoSize = true;
+            this.lblDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblDay.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDay.ForeColor = System.Drawing.Color.White;
+            this.lblDay.Location = new System.Drawing.Point(59, 35);
+            this.lblDay.Name = "lblDay";
+            this.lblDay.Size = new System.Drawing.Size(50, 19);
+            this.lblDay.TabIndex = 17;
+            this.lblDay.Text = "sabato";
+            this.lblDay.Click += new System.EventHandler(this.lblDay_Click);
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.White;
+            this.lblDate.Location = new System.Drawing.Point(3, 4);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(163, 26);
+            this.lblDate.TabIndex = 16;
+            this.lblDate.Text = "1 Gennaio 1970";
+            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
+            // 
             // Panoramica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -388,7 +412,6 @@
 
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Button btnValutazioni;
-        private System.Windows.Forms.Button btnCalendario;
         private System.Windows.Forms.Button btnOrario;
         private System.Windows.Forms.Button btnAgenda;
         private System.Windows.Forms.Panel panelLogo;
@@ -406,6 +429,9 @@
         private System.Windows.Forms.LinkLabel ClassroomEvents;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button ptbxLogo;
+        private System.Windows.Forms.Label lblDay;
+        private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.Label lblDate;
     }
 }
 

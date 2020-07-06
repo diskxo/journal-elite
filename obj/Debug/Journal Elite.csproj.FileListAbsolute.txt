@@ -302,7 +302,6 @@ C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.ResolveCom
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.AggiungiEvento.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.ModificaEvento.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormAgenda.resources
-C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormCalendario.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormOrario.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormProfilo.resources
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormValutazioni.resources
