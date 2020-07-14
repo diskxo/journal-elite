@@ -312,3 +312,98 @@ C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.CopyComple
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.exe
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal Elite.pdb
 C:\diskxo_\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Panoramica.resources
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Journal Elite.exe.config
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Journal Elite.exe
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Journal Elite.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\EO.WebBrowser.WinForm.DLL
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\ExcelDataReader.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Auth.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Classroom.v1.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Core.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.WinForms.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.Wpf.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Newtonsoft.Json.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Buffers.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Memory.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Numerics.Vectors.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Text.Encodings.Web.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Text.Json.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.ValueTuple.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Bunifu.Licensing.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\EO.WebBrowser.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\EO.Base.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\EO.WebEngine.dll
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\EO.WebBrowser.WinForm.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\ExcelDataReader.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\ExcelDataReader.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Auth.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Auth.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Classroom.v1.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Classroom.v1.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Core.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Google.Apis.Core.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.WinForms.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.WinForms.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.Wpf.pdb
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\LiveCharts.Wpf.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\Newtonsoft.Json.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Buffers.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Memory.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Numerics.Vectors.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Text.Encodings.Web.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Text.Json.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\System.ValueTuple.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\EO.WebBrowser.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\EO.Base.xml
+C:\Nicola\Visual Studio\journal-elite\bin\Debug\EO.WebEngine.xml
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal Elite.csprojAssemblyReference.cache
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.ResolveComReference.cache
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal_Elite.AggiungiEvento.resources
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.ModificaEvento.resources
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.Journal.resources
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormOrario.resources
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.FormProfilo.resources
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Forms.Votes.resources
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Panoramica.resources
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal_Elite.Properties.Resources.resources
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.GenerateResource.cache
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.CoreCompileInputs.cache
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal Elite.csproj.CopyComplete
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal Elite.exe
+C:\Nicola\Visual Studio\journal-elite\obj\Debug\Journal Elite.pdb

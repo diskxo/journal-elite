@@ -39,8 +39,11 @@
             this.ptbxLogo = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
+            this.lblDay = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
             this.btnMaximize = new System.Windows.Forms.Button();
             this.btnMinimize = new System.Windows.Forms.Button();
+            this.lblDate = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktopPanel = new System.Windows.Forms.Panel();
@@ -49,9 +52,6 @@
             this.CalendarEvents = new System.Windows.Forms.LinkLabel();
             this.lblGoogleCalendarTitle = new System.Windows.Forms.Label();
             this.GetEvents = new System.Windows.Forms.Timer(this.components);
-            this.lblTime = new System.Windows.Forms.Label();
-            this.lblDay = new System.Windows.Forms.Label();
-            this.lblDate = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -170,7 +170,7 @@
             this.ptbxLogo.FlatAppearance.BorderSize = 0;
             this.ptbxLogo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ptbxLogo.Image = ((System.Drawing.Image)(resources.GetObject("ptbxLogo.Image")));
-            this.ptbxLogo.Location = new System.Drawing.Point(12, 4);
+            this.ptbxLogo.Location = new System.Drawing.Point(19, 4);
             this.ptbxLogo.Name = "ptbxLogo";
             this.ptbxLogo.Size = new System.Drawing.Size(48, 47);
             this.ptbxLogo.TabIndex = 6;
@@ -182,7 +182,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(66, 17);
+            this.label1.Location = new System.Drawing.Point(73, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 22);
             this.label1.TabIndex = 0;
@@ -206,6 +206,32 @@
             this.panelTitleBar.TabIndex = 1;
             this.panelTitleBar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitleBar_Paint);
             this.panelTitleBar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_MouseDown);
+            // 
+            // lblDay
+            // 
+            this.lblDay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblDay.AutoSize = true;
+            this.lblDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblDay.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDay.ForeColor = System.Drawing.Color.White;
+            this.lblDay.Location = new System.Drawing.Point(57, 28);
+            this.lblDay.Name = "lblDay";
+            this.lblDay.Size = new System.Drawing.Size(50, 19);
+            this.lblDay.TabIndex = 17;
+            this.lblDay.Text = "sabato";
+            this.lblDay.Click += new System.EventHandler(this.lblDay_Click);
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.ForeColor = System.Drawing.Color.White;
+            this.lblTime.Location = new System.Drawing.Point(6, 28);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(38, 19);
+            this.lblTime.TabIndex = 18;
+            this.lblTime.Text = "Time";
+            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
             // btnMaximize
             // 
@@ -238,6 +264,19 @@
             this.btnMinimize.Text = "-";
             this.btnMinimize.UseVisualStyleBackColor = true;
             this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblDate.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDate.ForeColor = System.Drawing.Color.White;
+            this.lblDate.Location = new System.Drawing.Point(3, 4);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(163, 26);
+            this.lblDate.TabIndex = 16;
+            this.lblDate.Text = "1 Gennaio 1970";
+            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // btnClose
             // 
@@ -344,45 +383,6 @@
             this.GetEvents.Enabled = true;
             this.GetEvents.Interval = 10000;
             this.GetEvents.Tick += new System.EventHandler(this.GetEvents_Tick);
-            // 
-            // lblTime
-            // 
-            this.lblTime.AutoSize = true;
-            this.lblTime.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTime.ForeColor = System.Drawing.Color.White;
-            this.lblTime.Location = new System.Drawing.Point(6, 35);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(38, 19);
-            this.lblTime.TabIndex = 18;
-            this.lblTime.Text = "Time";
-            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
-            // 
-            // lblDay
-            // 
-            this.lblDay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDay.AutoSize = true;
-            this.lblDay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblDay.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDay.ForeColor = System.Drawing.Color.White;
-            this.lblDay.Location = new System.Drawing.Point(59, 35);
-            this.lblDay.Name = "lblDay";
-            this.lblDay.Size = new System.Drawing.Size(50, 19);
-            this.lblDay.TabIndex = 17;
-            this.lblDay.Text = "sabato";
-            this.lblDay.Click += new System.EventHandler(this.lblDay_Click);
-            // 
-            // lblDate
-            // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblDate.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDate.ForeColor = System.Drawing.Color.White;
-            this.lblDate.Location = new System.Drawing.Point(3, 4);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(163, 26);
-            this.lblDate.TabIndex = 16;
-            this.lblDate.Text = "1 Gennaio 1970";
-            this.lblDate.Click += new System.EventHandler(this.lblDate_Click);
             // 
             // Panoramica
             // 

@@ -112,11 +112,16 @@
             // 
             // creadits
             // 
+            this.creadits.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.creadits.Cursor = System.Windows.Forms.Cursors.Hand;
             this.creadits.FlatAppearance.BorderSize = 0;
             this.creadits.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.creadits.Location = new System.Drawing.Point(702, 439);
+            this.creadits.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.creadits.ForeColor = System.Drawing.Color.AliceBlue;
+            this.creadits.Image = ((System.Drawing.Image)(resources.GetObject("creadits.Image")));
+            this.creadits.Location = new System.Drawing.Point(697, 430);
             this.creadits.Name = "creadits";
-            this.creadits.Size = new System.Drawing.Size(37, 24);
+            this.creadits.Size = new System.Drawing.Size(43, 35);
             this.creadits.TabIndex = 11;
             this.creadits.Text = "i";
             this.creadits.UseVisualStyleBackColor = true;

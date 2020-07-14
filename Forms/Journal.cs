@@ -19,7 +19,7 @@ using Google.Apis.Calendar.v3.Data;
 
 namespace Journal_Elite.Forms
 {
-    public partial class FormAgenda : System.Windows.Forms.Form
+    public partial class Journal : System.Windows.Forms.Form
     {
         //Classi Google Calendar
         static string[] Scopes = { CalendarService.Scope.Calendar };
@@ -29,10 +29,11 @@ namespace Journal_Elite.Forms
         // Classi Google Classroom
         static string[] ScopesClassroom = { ClassroomService.Scope.ClassroomCoursesReadonly };
         static string ApplicationNameClassroom = "Classroom API .NET Journal Elite";
-        public FormAgenda()
+        public Journal()
         {
             InitializeComponent();;
             GoogleAPI();
+            
     
         }
         
@@ -154,8 +155,8 @@ namespace Journal_Elite.Forms
 
         private void FormAgenda_Load(object sender, EventArgs e)
         {
-            
 
+            GoogleClassroomAPI();
         }
 
         private void lblAgendaTitle_Click(object sender, EventArgs e)

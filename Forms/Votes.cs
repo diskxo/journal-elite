@@ -7,7 +7,7 @@ using TextBox = System.Windows.Controls.TextBox;
 
 namespace Journal_Elite.Forms
 {
-    public partial class FormValutazioni : Form
+    public partial class Votes : Form
     {
         static int i = 1;
 
@@ -41,7 +41,7 @@ namespace Journal_Elite.Forms
         System.Data.DataTable subject10 = new System.Data.DataTable("subject10");
         DataTable table10 = new DataTable("subject10");
 
-        public FormValutazioni()
+        public Votes()
         {
             InitializeComponent();
             

@@ -186,23 +186,24 @@
     <Compile Include="Eventi\AddEvent.Designer.cs">
       <DependentUpon>AddEvent.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormOrario.cs">
+    <Compile Include="Forms\schedule.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormOrario.Designer.cs">
-      <DependentUpon>FormOrario.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FormProfilo.cs">
+    <Compile Include="Forms\.Designer.cs">
+      <DependentUpon>schedule.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormProfilo.Designer.cs">
-      <DependentUpon>FormProfilo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\FormValutazioni.cs">
+    <Compile Include="Forms\Profile-settings.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormValutazioni.Designer.cs">
-      <DependentUpon>FormValutazioni.cs</DependentUpon>
+    <Compile Include="Forms\Profile-settings.Designer.cs">
+      <DependentUpon>Profile-settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Votes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Votes.Designer.cs">
+      <DependentUpon>Votes.cs</DependentUpon>
     </Compile>
     <Compile Include="Eventi\ModificaEvento.cs">
       <SubType>Form</SubType>
@@ -210,17 +211,17 @@
     <Compile Include="Eventi\ModificaEvento.Designer.cs">
       <DependentUpon>ModificaEvento.cs</DependentUpon>
     </Compile>
-    <Compile Include="Panoramica.cs">
+    <Compile Include="Main-view.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Panoramica.Designer.cs">
-      <DependentUpon>Panoramica.cs</DependentUpon>
+    <Compile Include="Main-view.Designer.cs">
+      <DependentUpon>Main-view.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormAgenda.cs">
+    <Compile Include="Forms\Journal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FormAgenda.Designer.cs">
-      <DependentUpon>FormAgenda.cs</DependentUpon>
+    <Compile Include="Forms\Journal.Designer.cs">
+      <DependentUpon>Journal.cs</DependentUpon>
     </Compile>
     <Compile Include="Orario.cs">
       <DependentUpon>Orario.xsd</DependentUpon>
@@ -238,20 +239,20 @@
     <EmbeddedResource Include="Eventi\ModificaEvento.resx">
       <DependentUpon>ModificaEvento.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormAgenda.resx">
-      <DependentUpon>FormAgenda.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Journal.resx">
+      <DependentUpon>Journal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormOrario.resx">
-      <DependentUpon>FormOrario.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\schedule.resx">
+      <DependentUpon>schedule.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormProfilo.resx">
-      <DependentUpon>FormProfilo.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Profile-settings.resx">
+      <DependentUpon>Profile-settings.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormValutazioni.resx">
-      <DependentUpon>FormValutazioni.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Votes.resx">
+      <DependentUpon>Votes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Panoramica.resx">
-      <DependentUpon>Panoramica.cs</DependentUpon>
+    <EmbeddedResource Include="Main-view.resx">
+      <DependentUpon>Main-view.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

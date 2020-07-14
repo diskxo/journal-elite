@@ -258,7 +258,7 @@ namespace Journal_Elite
             btnOrario.BackColor = Color.FromArgb(168, 168, 0);
             btnProfilo.BackColor = Color.FromArgb(168, 168, 0);
             btnValutazioni.BackColor = Color.FromArgb(168, 168, 0);
-            OpenChildForm(new Forms.FormValutazioni(), sender);
+            OpenChildForm(new Forms.Votes(), sender);
             lblTime.Visible = false;
             lblDay.Visible = false;
             lblDate.Visible = false;
@@ -291,7 +291,7 @@ namespace Journal_Elite
             btnValutazioni.BackColor = Color.FromArgb(1, 96, 201);
             
            
-            OpenChildForm(new Forms.FormAgenda(), sender);
+            OpenChildForm(new Forms.Journal(), sender);
             lblTime.Visible = true;
             lblDay.Visible = true;
             lblDate.Visible = true;
@@ -399,9 +399,11 @@ namespace Journal_Elite
 
 
         private void ptbxLogo_Click_1(object sender, EventArgs e)
-        {                       
-            
-            
+        {
+            lblTime.Visible = false;
+            lblDay.Visible = false;
+            lblDate.Visible = false;
+
 
             if (activeForm != null)
                 activeForm.Close();
