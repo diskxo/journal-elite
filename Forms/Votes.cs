@@ -1,14 +1,24 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
+using System.IO;
+using System.Windows.Documents;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 using System.Windows.Input;
+using System.Xml.Serialization;
 using TextBox = System.Windows.Controls.TextBox;
 
 namespace Journal_Elite.Forms
 {
     public partial class Votes : Form
     {
+        //Write to XML
+        XmlSerializer xs;
+        List<Titles> ls;
+
+
         static int i = 1;
 
         System.Data.DataTable subject1 = new System.Data.DataTable("subject1");
@@ -44,6 +54,10 @@ namespace Journal_Elite.Forms
         public Votes()
         {
             InitializeComponent();
+
+            xs = new XmlSerializer(typeof(List<Titles>));
+            ls = new List<Titles>();
+
             
         }
 
@@ -68,7 +82,15 @@ namespace Journal_Elite.Forms
 
         private void SaveSubject_Click(object sender, EventArgs e)
         {
-            
+            FileStream fs = new FileStream(@"titles.xml", FileMode.Create, FileAccess.Write);
+            Titles sc = new Titles();
+            sc.Name = txtName.Text;
+            sc.Class = int.Parse(txtName.Text);
+            ls.Add(sc);
+
+            xs.Serialize(fs, ls);
+
+
 
             if (label1.Visible == false)
             {
@@ -77,6 +99,7 @@ namespace Journal_Elite.Forms
                 bunifuCircleProgressbar1.Visible = true;
                 AddVote.Visible = true;
                 label1.Text = txtName.Text;
+                
             }
             else if(label2.Visible == false)
             {
@@ -311,6 +334,13 @@ namespace Journal_Elite.Forms
         {
             subject10.ReadXml(@"subjects.xml");
             label10.Text = subject10.TableName;
+        }
+
+        private void load_Click(object sender, EventArgs e)
+        {
+            FileStream fs = new FileStream(@"titles.xml", FileMode.Open, FileAccess.Read);
+            ls = (List<Titles>)xs.Deserialize(fs);
+            dataGridView1.DataSource = ls;
         }
     }
     

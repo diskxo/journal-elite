@@ -74,6 +74,9 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.lblStart = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.load = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuCircleProgressbar1
@@ -734,12 +737,32 @@
             this.lblStart.Text = "Inizia aggiungendo una materia \r\nin alto a sinistra!";
             this.lblStart.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // FormValutazioni
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(147, 83);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(151, 30);
+            this.dataGridView1.TabIndex = 58;
+            // 
+            // load
+            // 
+            this.load.Location = new System.Drawing.Point(452, 89);
+            this.load.Name = "load";
+            this.load.Size = new System.Drawing.Size(75, 23);
+            this.load.TabIndex = 59;
+            this.load.Text = "Carica";
+            this.load.UseVisualStyleBackColor = true;
+            this.load.Click += new System.EventHandler(this.load_Click);
+            // 
+            // Votes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
             this.ClientSize = new System.Drawing.Size(985, 557);
+            this.Controls.Add(this.load);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -786,9 +809,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblStart);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormValutazioni";
+            this.Name = "Votes";
             this.Text = "Valutazioni";
             this.Load += new System.EventHandler(this.FormValutazioni_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -841,5 +865,7 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label lblStart;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button load;
     }
 }

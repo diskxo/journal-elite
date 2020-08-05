@@ -30,8 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Journal));
-            this.label1 = new System.Windows.Forms.Label();
-            this.ClassroomEvents = new System.Windows.Forms.LinkLabel();
+            this.HomeworkEvents = new System.Windows.Forms.LinkLabel();
             this.TimerClassroom = new System.Windows.Forms.Timer(this.components);
             this.Calendar = new System.Windows.Forms.MonthCalendar();
             this.btnCreateEvent = new System.Windows.Forms.Button();
@@ -43,36 +42,25 @@
             this.Events1_button = new System.Windows.Forms.Button();
             this.Events_button = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // HomeworkEvents
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(704, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 28);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Corsi";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // ClassroomEvents
-            // 
-            this.ClassroomEvents.ActiveLinkColor = System.Drawing.Color.White;
-            this.ClassroomEvents.AutoSize = true;
-            this.ClassroomEvents.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ClassroomEvents.ForeColor = System.Drawing.Color.White;
-            this.ClassroomEvents.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.ClassroomEvents.LinkColor = System.Drawing.Color.White;
-            this.ClassroomEvents.Location = new System.Drawing.Point(705, 73);
-            this.ClassroomEvents.Name = "ClassroomEvents";
-            this.ClassroomEvents.Size = new System.Drawing.Size(149, 19);
-            this.ClassroomEvents.TabIndex = 2;
-            this.ClassroomEvents.TabStop = true;
-            this.ClassroomEvents.Text = "Caricamento in corso...";
-            this.ClassroomEvents.VisitedLinkColor = System.Drawing.Color.White;
-            this.ClassroomEvents.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ClassroomEvents_LinkClicked);
+            this.HomeworkEvents.ActiveLinkColor = System.Drawing.Color.White;
+            this.HomeworkEvents.AutoSize = true;
+            this.HomeworkEvents.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HomeworkEvents.ForeColor = System.Drawing.Color.White;
+            this.HomeworkEvents.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.HomeworkEvents.LinkColor = System.Drawing.Color.White;
+            this.HomeworkEvents.Location = new System.Drawing.Point(705, 73);
+            this.HomeworkEvents.Name = "HomeworkEvents";
+            this.HomeworkEvents.Size = new System.Drawing.Size(149, 19);
+            this.HomeworkEvents.TabIndex = 2;
+            this.HomeworkEvents.TabStop = true;
+            this.HomeworkEvents.Text = "Caricamento in corso...";
+            this.HomeworkEvents.VisitedLinkColor = System.Drawing.Color.White;
+            this.HomeworkEvents.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ClassroomEvents_LinkClicked);
             // 
             // TimerClassroom
             // 
@@ -224,7 +212,19 @@
             this.label2.TabIndex = 19;
             this.label2.Text = "Eventi imminenti";
             // 
-            // FormAgenda
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(704, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(216, 28);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Compiti in scadenza";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // Journal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -240,10 +240,10 @@
             this.Controls.Add(this.Events2_button);
             this.Controls.Add(this.Events1_button);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.ClassroomEvents);
+            this.Controls.Add(this.HomeworkEvents);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormAgenda";
+            this.Name = "Journal";
             this.Text = "Agenda";
             this.Load += new System.EventHandler(this.FormAgenda_Load);
             this.ResumeLayout(false);
@@ -252,8 +252,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel ClassroomEvents;
+        private System.Windows.Forms.LinkLabel HomeworkEvents;
         private System.Windows.Forms.Timer TimerClassroom;
         private System.Windows.Forms.Button btnCreateEvent;
         private System.Windows.Forms.Button Events6_button;
@@ -265,5 +264,6 @@
         private System.Windows.Forms.Button Events_button;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.MonthCalendar Calendar;
+        private System.Windows.Forms.Label label1;
     }
 }

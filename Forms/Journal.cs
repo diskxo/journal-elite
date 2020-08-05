@@ -33,8 +33,8 @@ namespace Journal_Elite.Forms
         {
             InitializeComponent();;
             GoogleAPI();
-            
-    
+
+            GoogleClassroomAPI();
         }
         
         private void GoogleClassroomAPI()
@@ -62,30 +62,17 @@ namespace Journal_Elite.Forms
                 HttpClientInitializer = credential,
                 ApplicationName = ApplicationNameClassroom,
             });
-
+            var courseWork = new CourseWork();
             // Define request parameters.
-            CoursesResource.ListRequest request = service.Courses.List();
-            request.PageSize = 10;
+            courseWork.Assignment = courseWork.Title
+            
 
             // List courses.
-            ListCoursesResponse response = request.Execute();
-
-            if (response.Courses != null && response.Courses.Count > 0)
-            {
-
-                ClassroomEvents.Text = "";
-                foreach (var course in response.Courses)
-                {
-                    ClassroomEvents.Text += "- " + course.Name + "\n";
-                    
-                }
-            }
-            else
-            {
-                ClassroomEvents.Text = "Nessun corso";
-            }
+            
+            
 
         }
+        
         //Google Calendar API
         private void GoogleAPI()
         {
@@ -156,7 +143,7 @@ namespace Journal_Elite.Forms
         private void FormAgenda_Load(object sender, EventArgs e)
         {
 
-            GoogleClassroomAPI();
+            
         }
 
         private void lblAgendaTitle_Click(object sender, EventArgs e)
@@ -166,8 +153,7 @@ namespace Journal_Elite.Forms
 
         private void GetEvents_Tick(object sender, EventArgs e)
         {
-            //Load Google Classroom in 1900 ticks
-            GoogleClassroomAPI();
+                       
             GoogleAPI();
         }
 
@@ -186,7 +172,7 @@ namespace Journal_Elite.Forms
 
         private void TimerClassroom_Tick(object sender, EventArgs e)
         {
-            GoogleClassroomAPI();
+
         }
 
         private void btnCreateEvent_Click(object sender, EventArgs e)
